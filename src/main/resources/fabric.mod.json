@@ -20,10 +20,7 @@
 		],
 		"fabric-datagen": [
 			"net.emerald0s.nodumbc.NoDumbCDataGenerator"
-		],
-      "client": [
-        "net.emerald0s.nodumbc.NoDumbCClient"
-      ]
+		]
 	},
 	"mixins": [
 		"nodumbc.mixins.json"
