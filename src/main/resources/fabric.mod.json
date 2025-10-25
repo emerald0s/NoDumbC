@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/emerald0s",
 		"sources": "https://github.com/emerald0s/NoDumbC"
 	},
-	"license": "MIT",
+	"license": "CCO-1.0",
 	"icon": "assets/nodumbc/icon.png",
 	"environment": "*",
 	"entrypoints": {
