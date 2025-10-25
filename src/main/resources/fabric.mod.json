@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nodumbc",
+	"version": "${version}",
+	"name": "NoDumbC",
+	"description": "makes it so you cant see the massages of other players going into spectator",
+	"authors": [
+		"emerald0s"
+	],
+	"contact": {
+		"homepage": "https://github.com/emerald0s",
+		"sources": "https://github.com/emerald0s/NoDumbC"
+	},
+	"license": "MIT",
+	"icon": "assets/nodumbc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.emerald0s.nodumbc.NoDumbC"
+		],
+		"fabric-datagen": [
+			"net.emerald0s.nodumbc.NoDumbCDataGenerator"
+		],
+      "client": [
+        "net.emerald0s.nodumbc.NoDumbCClient"
+      ]
+	},
+	"mixins": [
+		"nodumbc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
